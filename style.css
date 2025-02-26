@@ -109,3 +109,29 @@ body {
 .text {
   max-width: 400px;
 }
+
+@media (max-width: 900px) {
+  .intro-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .portrait {
+    margin: 20px;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+
+.footer-container {
+  display: flex;
+    flex-direction: column;
+  justify-content: center;
+}
+}
